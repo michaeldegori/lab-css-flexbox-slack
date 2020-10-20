@@ -5,3 +5,16 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+.resources img {
+    
+}
+
+.resources ul {
+    display: flex;
+    flex-direction: column;
+    color: rgb(124, 124, 124);
+    font-family: sans-serif;
+    justify-content: flex-end;
+    list-style-type: none;
+}
