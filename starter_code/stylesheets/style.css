@@ -5,3 +5,45 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    border-bottom: 2px solid gray;
+    position: fixed;
+    top:1px;
+    
+}
+
+.nav-items {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: grey;
+}
+
+
+.nav-logo {
+    width: 8rem;
+    position: relative;
+    right: 2rem;
+
+}
+
+.nav-btn {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: .7rem;
+}
