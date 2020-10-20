@@ -8,22 +8,21 @@
 
   <!-- link the font awesome CDN -->
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet" />
-
-  <!-- link your styles -->
-  <link rel="stylesheet" href="./stylesheets/style.css" />
-  <title>Where work happens | Slack</title>
-</head>
+  <link rel="stylesheet" href="./stylesheets/style.css">
 
 <body>
-  <nav>
-    <img src="./images/slack-logo.png" alt="slack_logo" />
-    <ul>
-      <li>Why Slack?</li>
-      <li>Pricing</li>
-      <li>About Us</li>
-      <li>Your Workspaces</li>
-    </ul>
-  </nav>
+  <div>
+    <nav>
+      <img class="nav-logo" src="./images/slack-logo.png" alt="slack_logo" />
+      <ul class="nav-items">
+        <li><a href="#">Why Slack?</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a class="nav-btn" href="#">Your Workspace</a></li>
+      </ul>
+    </nav>
+  </div>
+
   <header>
     <img src="./images/home_talking.png" alt="home_work_happening" />
     <h1>Where Work Happens</h1>
@@ -43,7 +42,7 @@
         Millions of people around the world have already made Slack the place
         where their work happens.
       </p>
-      <button>DISCOVER WHY</button>
+      <button class="buttonlogos">DISCOVER WHY</button>
       <div class="logos">
         <div class="left">
           <img class="partnerlogos" src="./images/airbnb-logo.png" alt="" />
@@ -55,9 +54,7 @@
           <img class="partnerlogos" src="./images/los-angeles-times-logo.png" alt="" />
           <img class="partnerlogos" src="./images/ticketmaster-logo.png" alt="" />
         </div>
-
       </div>
-
     </div>
     <div>
       <p>Try it for free</p>
@@ -102,19 +99,13 @@
       </ul>
     </div>
     <div>
-      <ul>
-        <li>Status</li>
-        <li>Privacy & Terms</li>
-        <li>Contact Us</li>
-      </ul>
-      <div>
-        <img src="./images/us-flag.png" alt="" />
-        <span>English (US)</span>
-        <i class="fas fa-chevron-down"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-youtube"></i>
-      </div>
+      <img src="./images/us-flag.png" alt="" />
+      <span>English (US)</span>
+      <i class="fas fa-chevron-down"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
     </div>
   </footer>
 </body>
