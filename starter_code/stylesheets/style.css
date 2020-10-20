@@ -5,3 +5,28 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+#get-started {
+    display:flex;
+    justify-content: space-between;
+}
+
+#try-it-for-free {
+    font-family: sans-serif;
+    font-size: 1.1em;
+    padding: 15px;
+}
+
+button {
+    background-color: #192592;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#email-input {
+    display: flex;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
